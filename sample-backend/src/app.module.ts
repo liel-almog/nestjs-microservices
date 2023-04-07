@@ -9,6 +9,7 @@ import { AppService } from './app.service';
       {
         name: 'COMMUNICATION',
         transport: Transport.TCP,
+        options: { port: 3002 },
       },
       {
         name: 'ANALYTICS',
